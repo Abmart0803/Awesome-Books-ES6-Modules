@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+}
+
+header {
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h2 {
+  margin: 5px 10px;
+}
+
+nav {
+  margin: 5px 10px;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  margin: initial;
+  gap: 5px;
+}
+
+nav li {
+  list-style: none;
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+
+.contact-tab li {
+  list-style-type: none;
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+
+.contact {
+  border-right: none;
+}
+
+/************ books / add menu ******************* */
+
+.time-stamp {
+  text-align: right;
+}
+
+.book-wrapper {
+  border: 3px solid black;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  margin: 5px 10px;
+}
+
+.books {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gray-bg {
+  background-color: gray;
+}
+
+.books p {
+  margin: 5px 5px;
+}
+
+.add-book {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.add-book input {
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+
+.add-book input::placeholder {
+  color: black;
+}
+
+.btn-add {
+  background-color: #fff;
+}
+
+#add-button {
+  color: red;
+}
+
+#form button {
+  align-items: end;
+}
+
+.contact-tab {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+footer {
+  border: 3px solid black;
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.current {
+  color: purple;
+}

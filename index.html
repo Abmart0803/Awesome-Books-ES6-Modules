@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Awesome Books Apps ES6 Modules</title>
+  </head>
+  <body>
+    <header>
+      <h2>Awesome Books</h4>
+      <nav>
+        <ul>
+          <li class="books current">List</li>
+          <li class="add-new">Add new</li>
+          <li class="contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="time-stamp">March 22nd 2023, 7:15:22 pm</div>
+      <div class="tabs">
+        <section id="books" class="tab">
+          <h1>All awesome Books</h1>
+          <div class="books-list"></div>
+        </section>
+        <section id="add-new" class="add-book hidden tab">
+          <h2>Add a new book</h2>
+          <form id="form" action="#">
+            <div>
+              <input id="book-title" type="text" placeholder="Title" />
+            </div>
+            <div>
+              <input id="book-author" type="text" placeholder="Author" />
+            </div>
+            <div id="add-button">
+              <button class="btn-add" type="submit">Add</button>
+            </div>
+          </form>
+        </section>
+        <section id="contact" class="contact-tab hidden tab">
+          <h2>Contact information</h2>
+          <p>
+           For any enquiry or info about the Awesome Books Apps <br />
+            Get in touch with us via our contact below:
+          </p>
+          <ul>
+            <li>E-mail: info@abmart.com</li>
+            <li>Phone Number: +974 301 422 83</li>
+            <li>Address: Ainkhalind, Doha, Qatar.</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p class="copyright">Copyright @ Awsome Book Apps 2023.</p>
+      
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
